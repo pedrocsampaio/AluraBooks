@@ -1,13 +1,17 @@
+@import url("carrossel.css");
 @import url("header.css");
 @import url("banner.css");
-@import url("carrossel.css");
+@import url("topicos.css");
+@import url("rodape.css");
 
 :root{
     --cor-de-fundo: #EBECEE;
     --branco: #FFFF;
     --laranja: #EB9B00;
+    --laranja-escuro: #ffb116;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
+    --azul: #002F52;
 }
 
 body{
