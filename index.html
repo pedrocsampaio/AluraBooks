@@ -84,6 +84,62 @@
                 <a href="#" class="botões__ancora">Saiba mais</a>
             </div>
         </div>
+        <section class="carrossel">
+            <h1 class="carrossel__titulo">Mais Vendidos</h1>
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="assets/img/ApacheKafka.png"></div>
+                  <div class="swiper-slide"><img src="assets/img/Guia Front-end.png"></div>
+                  <div class="swiper-slide"><img src="assets/img/Portugol.png"></div>
+                  <div class="swiper-slide"><img src="assets/img/ApacheKafka.png"></div>
+                  <div class="swiper-slide"><img src="assets/img/Guia Front-end.png"></div>
+                  <div class="swiper-slide"><img src="assets/img/Portugol.png"></div>
+                </div> 
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+    
+            <div class="card">
+                <div class="card__descrição">
+                    <div class="descrição">
+                        <img src="assets/img/Estrelinhas.svg" class="img__estrela">
+                        <h2 class="descrição__titulo">Autora do Mês</h2>
+                        <h1 class="descrição__titulo-livro">Juliana Agarikov</h1>
+                        <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                    </div>
+                    <img src="assets/img/Perfil-escritora 1-1.png">
+                </div>
+                <div class="card__botões">
+                    <ul class="botões">
+                        <li class="botões__item"><img src="assets/img/Favoritos.svg"></li>
+                        <li class="botões__item"><img src="assets/img/Compras.svg"></li>
+                    </ul>
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+            <div class="topicos">
+                <h1 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h1>
+                <ul class="topicos__lista">
+                    <li class="topicos__item"><a href="#" class="topicos__link">Android</a></li>
+                    <li class="topicos__item"><a href="#" class="topicos__link">Marketing Digital</a></li>
+                    <li class="topicos__item"><a href="#" class="topicos__link">Agile</a></li>
+                    <li class="topicos__item"><a href="#" class="topicos__link">Startups</a></li>
+                    <li class="topicos__item"><a href="#" class="topicos__link">HTML & CSS</a><li>
+                    <li class="topicos__item"><a href="#" class="topicos__link">Python</a></li>
+                    <li class="topicos__item"><a href="#" class="topicos__link">OO</a></li>
+                    <li class="topicos__item"><a href="#" class="topicos__link">Java</a></li>
+                </ul>
+            </div>
+            <section class="rodape">
+                <h1 class="rodape__titulo">Fique por dentro das novidades!</h1>
+                <p class="rodape__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+                <input type="search" class="rodape__pesquisa" placeholder="Cadastre seu e-mail">
+            </section>
+            <hr>
+                <footer>
+                    <p class="foo">Grupo Alura</p>
+                </footer>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
@@ -91,6 +147,7 @@
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
             slidesPerView: 2.2,
+            dynamicMainBullets: 7,
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
