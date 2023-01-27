@@ -1,0 +1,43 @@
+.rodape__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--azul);
+    background: url("../img/Email.svg") no-repeat;
+    background-position: 1em;
+    padding-left: 3.5em;
+}
+
+.rodape__pesquisa {
+    background-color: transparent;
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    border-radius: 24px;
+    padding: .5em;
+    width: 100%;
+}
+
+.rodape__titulo{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--azul);
+    margin-bottom: 8px;
+}
+
+.rodape__texto{
+    color: var(--azul);
+    line-height: 24px;
+    margin-bottom: 13px;
+}
+
+.rodape{
+    padding: 24px;
+}
+
+hr{
+    margin: 0;
+}
+
+footer{
+    padding: 1em;
+}
