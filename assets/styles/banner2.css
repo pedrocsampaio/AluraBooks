@@ -1,0 +1,15 @@
+.topicos__visitados{
+    background: var(--azul-degrade);
+}
+
+.lista__topicos{
+    display: flex;
+}
+
+.titulos__topicos{
+    color: var(--branco);
+    font-weight: 300px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 24px;
+}
