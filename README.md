@@ -10,4 +10,4 @@ The idea of the project is based on a fully responsive website for selling books
 
 ## Project view
 
-You can access the website at this link <a href="[https://pedrocsampaio.github.io/AluraBooks/]">this link.</a>
+You can access the website at this link <a href="https://pedrocsampaio.github.io/AluraBooks/">this link.</a>
